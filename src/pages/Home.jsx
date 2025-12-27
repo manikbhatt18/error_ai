@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from "../assets/images/Logo.png";
 import { 
   ArrowRight, 
   Search, 
@@ -214,9 +215,12 @@ const Footer = () => (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
                 <div>
-                    <div className="flex items-center gap-2 mb-6">
-                        <div className="h-8 w-8 bg-[#FFB638] rounded flex items-center justify-center text-[#293171] font-bold text-lg">E</div>
-                        <span className="font-bold text-2xl tracking-tighter">ERROR<span className="text-[#FFB638]">.AI</span></span>
+                    <div className="mb-6">
+                      <img
+                        src={Logo}
+                        alt="Error.AI Logo"
+                        className="h-18 md:h-22 object-contain"
+                      />
                     </div>
                     <p className="text-slate-400 mb-6">Building digital empires from Ranchi. Error.AI provides top-tier marketing and development solutions to help your business grow.</p>
                     <div className="flex space-x-4">
