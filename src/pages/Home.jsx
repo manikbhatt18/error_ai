@@ -184,7 +184,7 @@ const WhyChooseUs = () => (
             <div className="absolute inset-0 bg-gradient-to-t from-[#293171] via-transparent to-transparent"></div>
             <div className="absolute bottom-8 left-8 right-8">
                 <p className="text-xl font-bold italic">"Error.AI helped us triple our online leads in just 3 months. Best agency in Ranchi!"</p>
-                <p className="text-[#FFB638] mt-2 font-semibold">- Rajeev Kumar, CEO of Jharkhand Motors</p>
+                
             </div>
         </div>
       </div>
@@ -256,15 +256,15 @@ const Footer = () => (
                     <ul className="space-y-4 text-slate-300">
                         <li className="flex items-start">
                             <MapPin className="text-[#FFB638] mt-1 mr-3 flex-shrink-0" size={18} />
-                            <span>4th Floor, Capitol Hill, Main Road,<br/>Ranchi, Jharkhand - 834001</span>
+                            <span>Road No. 4, Ganga Nagar, Harmu<br/>Ranchi, Jharkhand - 834001</span>
                         </li>
                         <li className="flex items-center">
                             <Phone className="text-[#FFB638] mr-3 flex-shrink-0" size={18} />
-                            <span>+91 98765 43210</span>
+                            <span>+91 62875 43232</span>
                         </li>
                         <li className="flex items-center">
                             <Mail className="text-[#FFB638] mr-3 flex-shrink-0" size={18} />
-                            <span>hello@error.ai</span>
+                            <span>info@errorr.in</span>
                         </li>
                     </ul>
                 </div>
